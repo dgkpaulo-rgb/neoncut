@@ -22,15 +22,15 @@ const About: React.FC = () => {
           <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-neon-cyan to-neon-purple rounded-2xl blur opacity-20 group-hover:opacity-40 transition-opacity duration-500"></div>
             <div className="relative rounded-2xl overflow-hidden border border-white/10 bg-dark-card aspect-[4/5] md:aspect-square lg:aspect-[4/5]">
-               {/* Placeholder for Editor's Photo */}
+               {/* Updated Editor's Photo */}
                <img 
-                 src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1000&auto=format&fit=crop" 
-                 alt="Editor Profile" 
+                 src="https://raw.githubusercontent.com/dgkpaulo-rgb/neoncut/main/components/Whisk_c5898af5a9d4ddb9fa24d417b8ddb404dr.png" 
+                 alt="Paulo Henrique" 
                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
                />
                <div className="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black via-black/80 to-transparent">
-                  <h3 className="text-2xl font-display font-bold text-white">Alex Editor</h3>
-                  <p className="text-neon-cyan text-sm tracking-widest uppercase">Senior Video Editor</p>
+                  <h3 className="text-2xl font-display font-bold text-white">Paulo Henrique</h3>
+                  <p className="text-neon-cyan text-sm tracking-widest uppercase">Editor Profissional</p>
                </div>
             </div>
           </div>

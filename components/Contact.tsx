@@ -21,11 +21,11 @@ const Contact: React.FC = () => {
             </p>
 
             <div className="space-y-6">
-              <a href="#" className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors group">
+              <a href="https://wa.me/5511978396684" target="_blank" rel="noreferrer" className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors group">
                 <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-neon-cyan group-hover:text-black transition-all">
                   <MessageCircle className="w-5 h-5" />
                 </div>
-                <span className="font-display text-lg">+55 (11) 99999-9999</span>
+                <span className="font-display text-lg">+55 (11) 97839-6684</span>
               </a>
               
               <a href="#" className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors group">

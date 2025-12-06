@@ -9,7 +9,6 @@ const Services: React.FC = () => {
       title: 'Edição Completa',
       description: 'Cortes precisos, storytelling e montagem cinematográfica para vídeos longos.',
       iconName: 'scissors',
-      price: 'A partir de R$ 500'
     },
     {
       id: '2',
@@ -75,8 +74,8 @@ const Services: React.FC = () => {
               {/* Hover Gradient Background */}
               <div className="absolute inset-0 bg-gradient-to-br from-neon-cyan/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
-              <div className="relative z-10">
-                <div className="inline-flex items-center justify-center p-3 rounded-lg bg-white/5 text-neon-cyan mb-6 group-hover:scale-110 transition-transform duration-300 group-hover:text-white group-hover:bg-neon-cyan">
+              <div className="relative z-10 flex flex-col h-full">
+                <div className="inline-flex items-center justify-center p-3 rounded-lg bg-white/5 text-neon-cyan mb-6 group-hover:scale-110 transition-transform duration-300 group-hover:text-white group-hover:bg-neon-cyan w-fit">
                   {getIcon(service.iconName)}
                 </div>
                 
@@ -88,12 +87,12 @@ const Services: React.FC = () => {
                   {service.description}
                 </p>
 
-                <div className="flex items-center justify-between mt-auto">
-                   {service.price && (
-                     <span className="text-xs font-mono text-neon-purple font-bold">{service.price}</span>
-                   )}
-                   <button className="text-sm font-bold text-white hover:text-neon-cyan uppercase tracking-wider flex items-center gap-1">
-                     Contratar <span>→</span>
+                <div className="mt-auto pt-4 border-t border-white/5">
+                   <button 
+                     onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                     className="text-sm font-bold text-white hover:text-neon-cyan uppercase tracking-wider flex items-center gap-1 w-full justify-end"
+                   >
+                     Solicitar Orçamento <span>→</span>
                    </button>
                 </div>
               </div>

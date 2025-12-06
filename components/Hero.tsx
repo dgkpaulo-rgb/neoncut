@@ -38,12 +38,6 @@ const Hero: React.FC = () => {
           <Button variant="primary" glow onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
             Solicitar Orçamento
           </Button>
-          
-          <Button variant="outline" onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}>
-            <span className="flex items-center gap-2">
-              <Play className="w-4 h-4 fill-current" /> Ver Portfólio
-            </span>
-          </Button>
         </div>
       </div>
 
